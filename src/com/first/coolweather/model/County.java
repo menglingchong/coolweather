@@ -2,7 +2,7 @@ package com.first.coolweather.model;
 
 public class County {
 	private int id;
-	private String countyNmae;
+	private String countyName;
 	private String countyCode;
 	private int cityId;
 	public int getId() {
@@ -11,11 +11,11 @@ public class County {
 	public void setId(int id) {
 		this.id = id;
 	}
-	public String getCountyNmae() {
-		return countyNmae;
+	public String getCountyName() {
+		return countyName;
 	}
-	public void setCountyNmae(String countyNmae) {
-		this.countyNmae = countyNmae;
+	public void setCountyName(String countyName) {
+		this.countyName = countyName;
 	}
 	public String getCountyCode() {
 		return countyCode;

@@ -3,7 +3,7 @@ package com.first.coolweather.model;
 public class City {
 	private int id;
 	private String cityName;
-	private String cityNode;
+	private String cityCode;
 	private int provinceId;
 
 	public int getId() {
@@ -22,12 +22,12 @@ public class City {
 		this.cityName = cityName;
 	}
 
-	public String getCityNode() {
-		return cityNode;
+	public String getCityCode() {
+		return cityCode;
 	}
 
-	public void setCityNode(String cityNode) {
-		this.cityNode = cityNode;
+	public void setCityCode(String cityCode) {
+		this.cityCode = cityCode;
 	}
 
 	public int getProvinceId() {
